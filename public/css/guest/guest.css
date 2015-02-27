@@ -1,0 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600,400);
+*
+{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background-color: #EAE9E7;
+	font-family: 'Open Sans';
+}
+
+a
+{
+	color: #fff;
+	text-decoration: none;
+}

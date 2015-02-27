@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600,400);
+*
+{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background-color: yellow;
+	font-family: 'Open Sans';
+}
+
+a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.container
+{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 115px;
+	width: 55px;
+}
+
+
+.logo
+{
+	background: url('../../img/guest/logo.png') no-repeat;
+	width: 55px;
+	height: 55px;
+	
+}
+
+.choose_actions
+{
+	text-transform:uppercase;
+	text-align:center;
+	position:absolute;
+	margin:0 auto;
+	font-size:25pt;
+	color:#ffffff;
+	width:100%;
+	bottom:0;
+	left:0;
+}
+
+ul
+{
+	list-style:none;
+}
+
+li
+{
+	display:block;
+}
+
+.choose_actions li
+{
+	height:100px;
+	width:100%;
+	
+}
+
+.choose_actions li div
+{
+	padding:35px 0;
+	height:100%;
+	width:100%;	
+	font-weight: bold;
+	line-height: 38px;
+}
+
+.choose_actions li #login
+{
+	background:#e72854;
+}
+
+.choose_actions li #register
+{
+	background:#3cb2e2;
+}
